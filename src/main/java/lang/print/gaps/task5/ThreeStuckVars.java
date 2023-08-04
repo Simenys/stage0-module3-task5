@@ -7,6 +7,6 @@ public class ThreeStuckVars {
         int first = 1;
         int second = 10;
         int third = 100;
-        out.println(Integer.toString(first + second + third));
+        out.println(Integer.toString(first) + Integer.toString(second) + Integer.toString(third));
     }
 }
